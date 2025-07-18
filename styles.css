@@ -71,6 +71,10 @@ button{
     padding: 5px 15px;
 }
 
+.first img{
+    border-radius: 4px;
+}
+
 /*The second section*/
 .second{
     display: flex;
@@ -88,15 +92,24 @@ button{
 .second ul{
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    gap: 15px;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    gap: 50px;
 }
 
 .second li{
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    width: 400px;
+}
+
+.second img{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+}
+
+span{
+    width: 200px;
 }
